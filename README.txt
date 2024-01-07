@@ -1,3 +1,28 @@
+Fast and easy access to the Official Terraria Wiki
+
+(Intended to be launched with dmenu, but works just
+fine in the terminal. It's just not as fast or easy.)
+
+
+
+Usage:
+
+  If no arguments are recieved, the wiki home page
+  will appear:
+
+    twiki.exe
+
+  If you are looking for something specific, type your
+  search query like this:
+
+    twiki.exe skeletron
+
+    or
+
+    twiki.exe ichor bullet
+
+
+
 Instructions:
 
   You need to specify what web browser you are using
@@ -61,21 +86,3 @@ Building:
   You can change the default installation directory
   as well as the name of the executable on lines 3
   and 4 in the Makefile before building.
-
-
-
-Usage:
-
-  If no arguments are recieved, the Terraria wiki home
-  page will appear:
-
-    twiki.exe
-
-  If you are looking for something specific, type your
-  search query like this:
-
-    twiki.exe skeletron
-
-    or
-
-    twiki.exe ichor bullet
