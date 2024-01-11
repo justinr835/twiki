@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
   else { // if arguments are recieved concatenate them and search the wiki 
     int query_length = argc - 1;
     for(int i = 1; i <= argc - 1; i += 1) query_length += strlen(argv[i]);
-    char *open_wiki_search_url = malloc(sizeof(char) * (strlen(browser_new_tab) + 1 + strlen(wiki_search_url) + query_length + 1));
+    char *open_wiki_search_url = malloc(sizeof(char) * (strlen(browser_new_tab) + 1 + strlen(wiki_search_url) + query_length));
     strcpy(open_wiki_search_url, browser_new_tab);
     strcat(open_wiki_search_url, " ");
     strcat(open_wiki_search_url, wiki_search_url);
